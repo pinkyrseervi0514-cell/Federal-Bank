@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Freedal Bank Dashboard</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#f4f6f9;
+}
+
+/* HEADER */
+
+.header{
+background:#0c4da2;
+padding:12px 20px;
+display:flex;
+align-items:center;
+}
+
+.logo img{
+height:40px;
+}
+
+/* YELLOW LINE */
+
+.yellow-line{
+height:5px;
+background:#f4a000;
+}
+
+/* SIDEBAR */
+
+.sidebar{
+position:fixed;
+top:60px;
+left:0;
+bottom:0;
+width:220px;
+background:#f7f7f7;
+padding:10px;
+}
+
+.sidebar input{
+width:180px;
+padding:8px;
+margin-bottom:20px;
+}
+
+.sidebar a{
+display:block;
+padding:10px;
+text-decoration:none;
+color:#333;
+font-size:14px;
+}
+
+.sidebar a:hover{
+background:#eaeaea;
+}
+
+/* MAIN */
+
+.main{
+margin-left:240px;
+padding:20px;
+display:flex;
+}
+
+/* CENTER AREA */
+
+.center{
+flex:2;
+}
+
+/* ACCOUNT CARD */
+
+.account{
+background:#0c4da2;
+color:white;
+padding:20px;
+display:flex;
+justify-content:center;
+align-items:center;
+height:80px;
+font-size:18px;
+}
+
+/* BALANCE */
+
+.balance{
+background:#69b340;
+color:white;
+padding:20px;
+width:230px;
+text-align:center;
+font-size:18px;
+}
+
+/* PASSWORD BOX */
+
+.box{
+background:#d9edf7;
+padding:15px;
+margin-top:10px;
+border-radius:8px;
+text-align:center;
+}
+
+/* SUMMARY */
+
+.summary{
+background:white;
+margin-top:20px;
+padding:10px;
+}
+
+.summary-title{
+background:#f39c12;
+color:white;
+padding:10px;
+}
+
+.summary table{
+width:100%;
+border-collapse:collapse;
+}
+
+.summary th,
+.summary td{
+border:1px solid #ddd;
+padding:10px;
+}
+
+/* RIGHT PANEL */
+
+.right{
+width:300px;
+margin-left:20px;
+}
+
+.demat{
+background:#f4a000;
+color:white;
+padding:10px;
+text-align:center;
+margin-bottom:10px;
+}
+
+.ad{
+background:white;
+border:1px solid #ddd;
+padding:10px;
+margin-bottom:15px;
+text-align:center;
+}
+
+/* FREDDY */
+
+.freddy{
+position:fixed;
+bottom:20px;
+right:40px;
+text-align:center;
+font-size:12px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<div class="header">
+
+<div class="logo">
+<img src="logo.png">
+</div>
+
+</div>
+
+<div class="yellow-line"></div>
+
+<!-- SIDEBAR -->
+
+<div class="sidebar">
+
+<input placeholder="Search...">
+
+<a href="#">HOME</a>
+<a href="#">CREDIT CARDS</a>
+<a href="#">ACCOUNTS</a>
+<a href="#">TRANSFER FUNDS</a>
+<a href="#">BENEFICIARIES</a>
+<a href="#">WEALTH MANAGEMENT</a>
+<a href="#">ADD-ON SERVICES</a>
+<a href="#">BILL PAYMENTS</a>
+<a href="#">MANAGE TAX</a>
+<a href="#">CUSTOMER SERVICE</a>
+<a href="#">MY PROFILE</a>
+<a href="#">DEBIT CARD SERVICES</a>
+
+</div>
+
+<!-- MAIN CONTENT -->
+
+<div class="main">
+
+<!-- CENTER -->
+
+<div class="center">
+
+<div style="display:flex">
+
+<div class="account" style="flex:2">
+
+◀ &nbsp;&nbsp;
+
+<div>
+
+SANTHOSH S<br>
+
+<h2>21670100103527</h2>
+
+Savings
+
+</div>
+
+&nbsp;&nbsp; ▶
+
+</div>
+
+<div style="margin-left:20px">
+
+<div class="balance">
+
+Account Balance<br><br>
+
+<h2>₹50,00,00,000.00</h2>
+
+</div>
+
+<div class="box">
+
+Login Password Last Changed On<br><br>
+
+06/03/2026
+
+</div>
+
+<div class="box">
+
+Transaction Password Last Changed On<br><br>
+
+03/03/2026
+
+</div>
+
+<div class="box">
+
+Scheduled Payments +
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ACCOUNT SUMMARY -->
+
+<div class="summary">
+
+<div class="summary-title">
+
+Savings
+
+</div>
+
+<table>
+
+<tr>
+<th>Account Number</th>
+<th>Account Type</th>
+<th>Effective Balance</th>
+</tr>
+
+<tr>
+<td>21670100103527</td>
+<td>Savings</td>
+<td>₹50,00,00,000.00</td>
+</tr>
+
+</table>
+
+</div>
+
+</div>
+
+<!-- RIGHT PANEL -->
+
+<div class="right">
+
+<div class="demat">
+
+Apply for a Demat Account
+
+</div>
+
+<div class="ad">
+
+Apply for Loan against your Deposit
+
+</div>
+
+<div class="ad">
+
+IRCTC Tickets Booking
+
+</div>
+
+<div class="ad">
+
+CKYC ID Advertisement
+
+</div>
+
+<div class="ad">
+
+Cybercrime Awareness Banner
+
+</div>
+
+</div>
+
+</div>
+
+<!-- FREDDY ASSISTANT -->
+
+<div class="freddy">
+
+<img src="freddy.png" width="120">
+
+<br>
+
+Hi, I am Freddy, your personal assistant.
+
+</div>
+
+</body>
+</html>
